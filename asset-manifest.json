@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/TodoApp1/static/css/main.a842ecf2.chunk.css",
+    "main.js": "/TodoApp1/static/js/main.7f239be0.chunk.js",
+    "main.js.map": "/TodoApp1/static/js/main.7f239be0.chunk.js.map",
+    "runtime-main.js": "/TodoApp1/static/js/runtime-main.9d4a9002.js",
+    "runtime-main.js.map": "/TodoApp1/static/js/runtime-main.9d4a9002.js.map",
+    "static/css/2.cfed7de4.chunk.css": "/TodoApp1/static/css/2.cfed7de4.chunk.css",
+    "static/js/2.98165599.chunk.js": "/TodoApp1/static/js/2.98165599.chunk.js",
+    "static/js/2.98165599.chunk.js.map": "/TodoApp1/static/js/2.98165599.chunk.js.map",
+    "index.html": "/TodoApp1/index.html",
+    "precache-manifest.9aeeaae1ebc41ab51fdc7864cdf27394.js": "/TodoApp1/precache-manifest.9aeeaae1ebc41ab51fdc7864cdf27394.js",
+    "service-worker.js": "/TodoApp1/service-worker.js",
+    "static/css/2.cfed7de4.chunk.css.map": "/TodoApp1/static/css/2.cfed7de4.chunk.css.map",
+    "static/css/main.a842ecf2.chunk.css.map": "/TodoApp1/static/css/main.a842ecf2.chunk.css.map",
+    "static/js/2.98165599.chunk.js.LICENSE.txt": "/TodoApp1/static/js/2.98165599.chunk.js.LICENSE.txt",
+    "static/media/Fuego.mp4": "/TodoApp1/static/media/Fuego.7740c5a0.mp4",
+    "static/media/Stars.mov": "/TodoApp1/static/media/Stars.8fecdd83.mov",
+    "static/media/goldd.png": "/TodoApp1/static/media/goldd.5195ad3d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d4a9002.js",
+    "static/css/2.cfed7de4.chunk.css",
+    "static/js/2.98165599.chunk.js",
+    "static/css/main.a842ecf2.chunk.css",
+    "static/js/main.7f239be0.chunk.js"
+  ]
+}
