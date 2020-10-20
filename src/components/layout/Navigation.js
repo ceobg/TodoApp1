@@ -26,7 +26,7 @@ const Navigation = () => {
               <NavDropdown.Divider />
               <NavDropdown.Item id="drop-bar" className="drop-links" href="/components/home"><NavLink activeClassName="active" to="/home">Home</NavLink></NavDropdown.Item>
               <NavDropdown.Item id="drop-bar" className="drop-links" href="/components/about"><NavLink activeClassName="active" to="/about">About</NavLink></NavDropdown.Item>
-              <Nav.Link href="#app"><NavLink exact activeClassName="active" to="/"><p>✩✩✩Todo</p></NavLink></Nav.Link>
+              <NavDropdown.Item id="drop-bar" className="drop-links" href="/"><NavLink activeClassName="active" to="/">Create A List</NavLink></NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav>
