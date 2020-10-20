@@ -145,7 +145,7 @@ class App extends Component {
                       target="_blank"
                       rel="noopener noreferrer">
 
-                      Thank you for stopping by gorgeous!
+                      Thank you for stopping by gorgeous!!!
         </a>  </em>
 
                     <hr />
