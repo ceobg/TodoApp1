@@ -292,15 +292,12 @@ input #input-bar {
 /* controlling my add to do list -- submit button*/
 
 #form-submit span button {
-  border-top-style:hidden;
-  border-left-style:hidden;
-  border-right-style:hidden;
-  border-radius:1px;
+  border-radius:5px;
   position: absolute;
   border-color:rgb(162, 1, 255) ;
   top: 70px;
   right: 22px; 
-  width: 85px;
+  width: 87px;
   height: 55px;
   cursor: crosshair;
 }
