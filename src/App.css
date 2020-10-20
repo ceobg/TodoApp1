@@ -134,35 +134,41 @@ span #spanform {
   font-family: Raleway;
 }
 #form-submit input {
-  width: 223px;
+  font-family: Raleway;
+  width: 210px;
   border-top-style:hidden;
   border-left-style:hidden;
   border-right-style:hidden;
 }
 
 #form-submit input:focus {
+  font-family: Raleway;
   outline: none;
 }
 /* My add to do list styling*/
 
 #my-add-todo input:focus {
+  font-family: Raleway;
   outline: none;
   border-color: #9dff00;
   border-style: solid;
 }
 .formControlAdd {
+  font-family: Raleway;
   border-radius: 10px;
   border-color: #9dff00;
   border-style: solid;
 }
 .formControlAdd input:focus {
   outline: none;
+  font-family: Raleway;
 }
 /* my add to do input form (specifically the add an item bar)*/
 
 #my-add-todo {
+  font-family: Raleway;
   position: absolute;
-  top:70px;
+  top:90px;
   padding:10px;
   border-color:rgb(32, 50, 204) ;
   border-style: solid;
@@ -277,7 +283,7 @@ input #input-bar {
 }
 .checkboxstyle p span {
   position: absolute;
-  right: 52px;
+  right: 40px;
 }
 /* submit button for to-do list elements */
 
@@ -292,14 +298,16 @@ input #input-bar {
 /* controlling my add to do list -- submit button*/
 
 #form-submit span button {
-  border-radius:5px;
+  font-family: Raleway;
+  border-radius:3px;
   position: absolute;
   border-color:rgb(162, 1, 255) ;
-  top: 70px;
+  top: 90px;
   right: 22px; 
   width: 87px;
   height: 55px;
   cursor: crosshair;
+  box-shadow: none;
 }
 
 /* my submit button onclick hover styling for todo list*/
@@ -326,6 +334,7 @@ input #input-bar {
 /* Main App styling */
 
 .App {
+  font-family: Raleway;
   align-items: center;
   text-align: center;
   border-radius: 50px;
@@ -340,13 +349,14 @@ input #input-bar {
 /*also controlling color of fa icons - orangeyellow specifically*/
 
 .App-header {
+  font-family: Raleway;
   border-radius:5px;
   min-height: 100vh;
   display: flexbox;
   flex-direction: column;
   align-items: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(253, 164, 0);
+  color: rgb(253, 68, 161); 
   margin: 20px;
   background-color: #000000;
 }
