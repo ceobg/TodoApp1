@@ -137,9 +137,6 @@ class App extends Component {
                         </div>
                       </div>
 
-                      <div className="embed-responsive embed-responsive-16by9">
-                        <iframe className="embed-responsive-item" width="640" height="480" src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" frameBorder="0" allowfullscreen></iframe>
-                      </div>
 
                     </header>
                     <em> <a
