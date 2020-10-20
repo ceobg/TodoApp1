@@ -1,0 +1,76 @@
+const Paragraph = ({ text }) => <p>{text}</p>;
+
+Let’s render a Paragraph component on screen: 
+
+ReactDOM.render(
+
+  <Paragraph text="This is the first paragraph." />
+
+  , document.querySelector('.js-root')
+
+);
+
+import React, {useState, useEffect, createContext} from 'React
+
+export const DataContext = createContext();
+
+export const DataProvider = (props) => {
+    const [todos, setTodos] = useState([])
+
+    useEffect(() => {
+        localStorage.setItem('todoStore', JSON.stringify(todos))
+    }, [todos])
+
+    return (
+        <DataContext.Provider value={[todos, setTodos]}>
+        {props.children}
+        </DataContext.Provider>
+    )
+}
+
+import React from 'react';
+import { Modal, Button } from 'react-bootstrap';
+import { useState } from 'react';
+
+function UserWire () {
+
+    const [show, setShow] = useState(true);
+  
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+  
+     return (
+        <div className="jumbotron d-flex justify-content-center" style={{ borderColor: 'black', }}>
+       
+       
+       <div className="module" style={{ borderColor: 'black', backgroundImage: "url('https://images.pexels.com/photos/776653/pexels-photo-776653.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260')",}}>
+     
+            
+        <Button id="modal-button" className="btn-light" onClick={handleShow} style={{  boxShadow: 'none', borderColor: 'pink', backgroundColor: 'pink', }}>
+       <h3>Launch Bootstrap Modal</h3>
+      </Button>
+
+      <Modal show={show} onHide={handleClose}></Modal>
+<Modal.Dialog style={{ borderColor: 'pink',}}>
+  <Modal.Header closeButton style={{ borderColor: 'pink',  backgroundColor: 'pink',}}>
+    <Modal.Title id="modal-title" style={{ borderColor: 'pink',  backgroundColor: 'pink',}}>
+      <h1>-- Requirements </h1></Modal.Title>
+  </Modal.Header>
+
+  <Modal.Body style={{ borderColor: 'black', backgroundColor: 'pink',}}>
+    <h1>userstory</h1>
+
+<hr />
+    <h1>wireframe</h1>
+  </Modal.Body>
+  <Modal.Footer style={{ borderColor: 'pink', backgroundColor: 'pink',}}>
+    <Button variant="light" style={{  boxShadow: 'none', borderColor: 'grey', backgroundColor: 'pink', }} onClick={handleClose}><h4>Close</h4></Button>
+    <Button variant="light" style={{  boxShadow: 'none', borderColor: 'grey', backgroundColor: 'pink', }} onClick={handleClose}><h4>Save changes</h4></Button>
+  </Modal.Footer>
+</Modal.Dialog>
+
+</div>
+        </div>
+    )
+}
+export default UserWire;

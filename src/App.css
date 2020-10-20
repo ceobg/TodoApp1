@@ -1,0 +1,564 @@
+/* viewport*/
+.viewportHeader {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* base css styling for container, jumbotron and body*/
+
+.jumbotron {
+  background: -webkit-repeating-linear-gradient(rgb(131, 0, 218), rgb(253, 0, 198), rgb(240, 100, 8), rgb(247, 193, 15));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Raleway;
+  font-size: 28px;
+  background-color: #9dff00;
+}
+.container {
+  padding: 0 1rem;
+  color:blueviolet;
+}
+
+.body {
+ display: flex;
+}
+/* contact form*/
+.contactForm {
+  display:flex;
+  justify-content: center;
+}
+/* targets my GLORY signature*/
+
+#react-bar {
+  background-blend-mode: luminosity;
+  font-family: Raleway;
+  background: -webkit-repeating-linear-gradient(rgb(4, 0, 255), rgb(253, 0, 198), rgb(0, 98, 255), rgb(146, 0, 243)); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* targets styling for my dropdown-menu links on navigation bar*/
+
+#drop-bar {
+  background: -webkit-repeating-linear-gradient(rgb(4, 0, 255), rgb(253, 0, 198), rgb(0, 98, 255), rgb(146, 0, 243));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:bold;
+}
+
+/* styling that targets 'More info' specifically on navigation bar*/
+
+.dropNav {
+  background: -webkit-repeating-linear-gradient(rgb(131, 0, 218), rgb(253, 0, 198), rgb(240, 100, 8), rgb(247, 193, 15));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:bold;
+}
+
+/* search bar button styling on boostrap navigation*/
+
+#search-bar {
+  background: -webkit-repeating-linear-gradient(rgb(131, 0, 218), rgb(253, 0, 198), rgb(240, 100, 8), rgb(247, 193, 15));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:bold;
+  border-color: rgb(255, 0, 200);
+
+}
+
+/* main navigation bar styling elements*/ 
+
+#nav-bar {
+  border-radius:10px;
+  font-weight:bold;
+  background: -webkit-repeating-linear-gradient(rgb(17, 0, 255), rgb(253, 0, 198), rgb(240, 100, 8), rgb(247, 193, 15));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#nav-bar:hover {
+  background: -webkit-repeating-linear-gradient(rgb(0, 38, 255), rgb(0, 245, 253), rgb(12, 8, 240), rgb(119, 0, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* SIGN UP FORM - CONTACT PAGE*/
+.mdForm input .formControl{
+  color:rgb(178, 69, 251);
+}
+.mdForm input:focus {
+  outline: none;
+  color:rgb(162, 0, 255);
+}
+/* main navigation and form control styling on main app page*/
+
+/* navigation search input*/
+
+span #spanform {
+  position: absolute;
+  right: 125px;
+  top: 10px;
+  width:150px;
+  }
+
+.mr {
+  font-weight:bold;
+  background: -webkit-repeating-linear-gradient(rgb(0, 0, 0), rgb(253, 0, 198), rgb(12, 8, 240), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: black;
+  border-color: black;
+}
+
+/*my add to do input form styling for todo list*/
+
+#form-submit span {
+
+  display: flex;
+  font-family: Raleway;
+  font-weight:bold;
+  background: linear-gradient(to right, rgb(253, 0, 198), rgb(240, 100, 8), rgb(247, 193, 15));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#form-submit {
+  font-family: Raleway;
+  font-weight:bold;
+  background: linear-gradient(to right, rgb(253, 0, 198), rgb(240, 100, 8), rgb(247, 193, 15));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#form-submit input::placeholder {
+  font-family: Raleway;
+}
+#form-submit input {
+  width: 193px;
+}
+
+#form-submit input:focus {
+  outline: none;
+}
+/* My add to do list styling*/
+
+#my-add-todo input:focus {
+  outline: none;
+  border-color: #9dff00;
+  border-style: solid;
+}
+.formControlAdd {
+  border-radius: 10px;
+  border-color: #9dff00;
+  border-style: solid;
+}
+.formControlAdd input:focus {
+  outline: none;
+}
+/* my add to do input form (specifically the add an item bar)*/
+
+#my-add-todo {
+  position: absolute;
+  top:70px;
+  padding:10px;
+  border-color:rgb(32, 50, 204) ;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  font-size: 20px;
+  height: 55px;
+  background: -webkit-repeating-linear-gradient(rgb(0, 0, 0), rgb(255, 0, 157), rgb(119, 0, 255),rgb(0, 140, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:bolder;
+}
+
+/* search bar with magnifying glass HOVER transition*/
+
+#navbardark {
+  color:black;
+  border-radius: 30px;
+  height: 60px;
+}
+.searchbar {
+  color:black;
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 40px;
+  background: -webkit-repeating-linear-gradient(rgb(146, 145, 195), rgb(228, 135, 192), rgb(255, 112, 155),rgb(180, 122, 255));
+  border-radius: 30px;
+  border-color: yellowgreen;
+  padding: 5px;
+  font-weight:bolder;
+}
+
+.searchbar input #input-bar {
+  color: black;
+  height: 40px;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color: transparent;
+  line-height: 30px;
+  -webkit-transition: width 0.2s linear;
+  transition: width 0.3s linear;
+  font-weight:bolder;
+}
+input #input-bar {
+  color: white;
+}
+#input-bar {
+  
+  border-color: yellowgreen;
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color: transparent;
+  line-height: 30px;
+  -webkit-transition: width 0.3s linear;
+  transition: width 0.3s linear;
+}
+
+.searchbar:hover > #input-bar {
+  padding: 0 10px;
+  width: 250px;
+  caret-color: #d100ec;
+  -webkit-transition: width 0.3s linear;
+  transition: width 0.2s linear;
+}
+.searchInput {
+  color:white;
+}
+.searchbar:hover > .searchBarIcon {
+  background:  #f17108;
+  color: #0400ff;
+}
+
+.searchbar a #submit-bar {
+  
+  border-color: yellowgreen;
+  height: 40px;
+  width: 60px;
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #9603f8;
+  text-decoration: none;
+}
+
+/* my fa icons styling*/
+
+.faicons {
+  margin: 0 5px;
+  font-size: 15px;
+  background: -webkit-repeating-linear-gradient(rgb(25, 0, 255), rgb(0, 110, 253), rgb(155, 8, 240), rgb(255, 0, 128));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: blueviolet;
+}
+
+/*my fa trash style*/
+
+.checkboxstyle input {
+  justify-content: center;
+}
+.checkboxstyle p span {
+  position: absolute;
+  right: 52px;
+}
+/* submit button for to-do list elements */
+
+#my-butts {
+  background: -webkit-repeating-linear-gradient(rgb(255, 208, 0), rgb(146, 0, 231), rgb(255, 37, 190), rgb(255, 230, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size:18px;
+}
+
+/* controlling my add to do list -- submit button*/
+
+#form-submit span button {
+  position: absolute;
+  border-color:rgb(162, 1, 255) ;
+  top: 70px;
+  right: 22px; 
+  width: 87px;
+  height: 55px;
+  cursor: crosshair;
+}
+
+/* my submit button onclick hover styling for todo list*/
+
+#my-butts:hover {
+  background: -webkit-repeating-linear-gradient(rgb(0, 15, 218), rgb(253, 0, 253), rgb(8, 166, 240), rgb(162, 0, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* form input for add to do list elements */
+
+#form-input {
+  font-family: Raleway;
+  font-weight:bold;
+  background: linear-gradient(to right, rgb(253, 0, 198), rgb(240, 100, 8), rgb(247, 193, 15));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* Contact Page*/
+#card-label {
+  display: flex;
+}
+/* Main App styling */
+
+.App {
+  align-items: center;
+  text-align: center;
+  border-radius: 50px;
+  background-color: rgb(0, 0, 0);
+  min-height: 500px;
+  width: 700px;
+  margin: 40px auto;
+  display: flex;
+}
+
+/* controlling my YOU ARE GOLD baby header */
+/*also controlling color of fa icons - orangeyellow specifically*/
+
+.App-header {
+  border-radius:5px;
+  min-height: 100vh;
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(253, 164, 0);
+  margin: 20px;
+  background-color: #000000;
+}
+
+/* controlling my link on the footer before copyright*/
+
+.App-link {
+  color: #001aff;
+  font-family: Ubuntu;
+  font-size: 32px;
+}
+
+/* not found - 404 */
+
+.NotFound {
+  padding-top: 100px;
+  text-align: center; 
+  background: -webkit-repeating-linear-gradient(rgb(25, 0, 255), rgb(0, 110, 253), rgb(155, 8, 240), rgb(255, 0, 128));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* column user/account pg*/
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* Column*/
+.column {
+  -webkit-box-flex: 33.33%;
+      -ms-flex: 33.33%;
+          flex: 33.33%;
+  padding: 5px;
+}
+/* media elements */
+
+@media (max-width: 767px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .column {
+    width: 25%;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-aspect-ratio: 16/9) {
+  #backgroundVideo {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  #backgroundVideo {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  #background-video {
+    background: url('https://cdn.videvo.net/videvo_files/videos/Fuego_de_Refineria.mp4') center center / cover no-repeat;
+  }
+
+  #background-video {
+    display: none;
+  }
+}
+
+/* font import */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway|Ubuntu|Dosis');
+
+
+/*account styles*/
+#email-label {
+  color:red;
+}
+#email-text {
+  color:red;
+}
+#email-control {
+  color:red;
+}
+#text-form {
+  color:red;
+}
+#bootform {
+  color: rgb(4, 0, 255);
+  overflow-x: hidden;
+  height: 100%;
+  border-radius: 25px !important;
+  background-image: linear-gradient(to right, #000000, #0c0c0c);
+  background-repeat: no-repeat
+}
+#bootform input:focus {
+  color: rgb(4, 0, 255);
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline-width: 0
+}
+#bootform input {
+  color: rgb(4, 0, 255);
+}
+#modal-button {
+  color: #000 !important;
+}
+#modal-title {
+ justify-content: space-between;
+}
+
+/*card animation*/
+
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#card-glow {
+  margin: 30px auto;
+  width: 300px;
+  height: 290px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(167, 149, 149, 0.239), -5px -5px 30px 7px rgba(241, 73, 247, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#card-glow .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  height: 300px;
+  width: 310px;
+  margin-top: -10px;
+}
+
+#card-glow .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+#card-glow .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -180px;
+  height: 40px;
+}
+
+#card-glow:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+.title-white {
+  color: rgb(221, 0, 0);
+  font-family:Ubuntu;
+}
+
+/*.title-black {
+  color: ghostwhite;
+}*/
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+/*
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  transition: 0.4s;
+}
+*/

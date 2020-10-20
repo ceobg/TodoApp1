@@ -1,0 +1,179 @@
+/* viewport*/
+.viewportHeader {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* base body css styling*/
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+
+    font-family: Raleway;
+    background: linear-gradient(to right,rgb(31, 29, 29), rgb(27, 27, 27), rgb(27, 27, 27), rgb(27, 27, 27));
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+  font-family: Raleway;
+  background-color: rgb(0, 0, 0);
+  background: linear-gradient(to right, rgb(253, 0, 198), rgb(240, 100, 8), rgb(247, 193, 15));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.jumbotron {
+  background: -webkit-repeating-linear-gradient(rgb(131, 0, 218), rgb(253, 0, 198), rgb(240, 100, 8), rgb(247, 193, 15));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Raleway;
+  font-size: 28px;
+}
+
+/* contents of page in container on main app
+this will be used to implement your mp4 for your video
+#contents {
+  position: relative;
+  overflow: hidden;
+}
+*/
+
+/* base module styling if used , modules and module border wrap*/
+
+.module {
+  font-family: Raleway;
+  border-radius: 15px;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(131, 0, 218), rgb(253, 0, 198),rgb(4, 8, 255), rgb(0, 0, 0));
+  color: rgb(4, 0, 255);
+  padding: 2rem;
+}
+.module-border-wrap {
+  border-radius:15px;
+  max-width: 700px;
+  padding: 1rem;
+  align-self: center;
+  display: flexbox;
+  background: linear-gradient(to right, rgb(131, 0, 218), rgb(253, 0, 198), rgb(240, 100, 8), rgb(247, 193, 15));
+  padding: 8px;
+}
+
+/* header styling for h1-h6*/
+
+h1 {
+    font-family: Raleway;
+    background: -webkit-repeating-linear-gradient(rgb(131, 0, 218), rgb(253, 0, 198), rgb(240, 100, 8), rgb(247, 193, 15));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2 {
+    font-family: Raleway;
+    background: -webkit-repeating-linear-gradient(rgb(0, 0, 0), rgb(253, 0, 198), rgb(174, 0, 255), rgb(0, 4, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h3 {
+  font-family: Raleway;
+  background: -webkit-repeating-linear-gradient(rgb(255, 0, 179), rgb(140, 0, 255), rgb(255, 157, 0), rgb(141, 1, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} 
+h4 {
+    font-family: Raleway;
+    background: -webkit-repeating-linear-gradient(rgb(4, 0, 255), rgb(253, 0, 198), rgb(0, 98, 255), rgb(146, 0, 243));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h6 {
+  font-weight: bold ;
+    font-family: Raleway;
+    background: -webkit-repeating-linear-gradient(top, rgb(0, 4, 255) 0%, #ff0095 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+  font-family: Ubuntu;
+  background: linear-gradient(to right, rgb(253, 173, 0), rgb(255, 86, 233),rgb(25, 0, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} 
+
+hr { 
+  border : 0;
+  height: 2px; 
+  background-image: linear-gradient(to right, rgb(241, 129, 241), rgb(130, 155, 238), rgb(185, 63, 241)); 
+}
+
+/*about me styles*/
+.module h2 #hcard {
+  font-weight: bolder;
+  color: black;
+}
+/*contact us styles*/
+#col-lg-22 {
+  font-weight: bolder;
+  color: black;
+}
+/* styling for card body info*/
+
+#col-app {
+  font-family: Raleway;
+  background: -webkit-repeating-linear-gradient(rgb(4, 0, 255), rgb(253, 0, 198), rgb(0, 98, 255), rgb(146, 0, 243));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#col-card {
+  font-family: Raleway;
+  background: -webkit-repeating-linear-gradient(rgb(4, 0, 255), rgb(253, 0, 198), rgb(0, 98, 255), rgb(146, 0, 243));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+/* SIGN UP FORM - CONTACT PAGE*/
+.mdForm input .formControl{
+  color:rgb(162, 0, 255);
+}
+/* targets my 'more' on the navigation bar on main app page*/
+
+#basic-nav {
+  background: -webkit-repeating-linear-gradient(rgb(131, 0, 218), rgb(253, 0, 198), rgb(240, 100, 8), rgb(247, 193, 15));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:bold;
+  border-color: black;
+}
+
+
+/* Change this breakpoint if you change the breakpoint of the navbar --- MEDIA ELEMENTS */
+
+@media (min-width: 992px) {
+  .animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+}
+
+/* FONT STYLING*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway|Ubuntu|Dosis');
