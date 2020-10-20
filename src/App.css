@@ -134,7 +134,10 @@ span #spanform {
   font-family: Raleway;
 }
 #form-submit input {
-  width: 193px;
+  width: 223px;
+  border-top-style:hidden;
+  border-left-style:hidden;
+  border-right-style:hidden;
 }
 
 #form-submit input:focus {
@@ -163,7 +166,7 @@ span #spanform {
   padding:10px;
   border-color:rgb(32, 50, 204) ;
   border-style: solid;
-  border-radius: 5px;
+  border-radius: 1px;
   border-width: 1px;
   font-size: 20px;
   height: 55px;
@@ -289,11 +292,15 @@ input #input-bar {
 /* controlling my add to do list -- submit button*/
 
 #form-submit span button {
+  border-top-style:hidden;
+  border-left-style:hidden;
+  border-right-style:hidden;
+  border-radius:1px;
   position: absolute;
   border-color:rgb(162, 1, 255) ;
   top: 70px;
   right: 22px; 
-  width: 87px;
+  width: 85px;
   height: 55px;
   cursor: crosshair;
 }
