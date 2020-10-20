@@ -47,14 +47,14 @@ class App extends Component {
       }
     ]
   }*/
-  constructor( props) {
+  constructor(props) {
     super();
-    console.log('constructor: props='+ JSON.stringify(props))
+    console.log('constructor: props=' + JSON.stringify(props))
   }
   // Toggle complete
   markComplete = (id) => {
     let todo = this.props.todos.find(todo => todo.id === id)
-    this.props.reduxCompleteTodo (todo)
+    this.props.reduxCompleteTodo(todo)
     /*
     this.setState({
       todos: this.state.todos.map(todo => {
@@ -71,7 +71,7 @@ class App extends Component {
 
   delTodo = (id) => {
     let todo = this.props.todos.find(todo => todo.id === id)
-    this.props.reduxDeleteTodo (todo)
+    this.props.reduxDeleteTodo(todo)
     //this.setState({ todos: [...this.state.todos.filter(todo => todo.id !== id)] });
     console.log(id)
   }
@@ -84,7 +84,7 @@ class App extends Component {
       title,
       completed: false
     }
-    this.props.reduxAddTodo (newTodo)
+    this.props.reduxAddTodo(newTodo)
     //this.setState({ todos: [...this.state.todos, newTodo] });
 
     // console.log(title)
@@ -92,7 +92,7 @@ class App extends Component {
 
 
   render() {
-    console.log('render: props='+ JSON.stringify(this.props))
+    console.log('render: props=' + JSON.stringify(this.props))
 
     // console.log(this.state.todos)
     return (
@@ -126,10 +126,16 @@ class App extends Component {
                       <div className="col-lg-22" id="col-app">
                         <div className="card bg-dark h-100">
                           <h4 className="card-header" id="col-card" style={{ fontSize: '34px', }}> Your To.do List</h4>
-                          <div className="card-body">
+                          <br /> 
+                            <br /> 
+                            <br />
+                          <div className="card-body" style={{ fontFamily: 'Raleway', }}>
+                       
+                            <br />
 
                             <AddTodo addTodo={this.addTodo} />
-                            <br /><br />
+                            <br />
+                            <br />
                             <Todos todos={this.props.todos} markComplete={this.markComplete} delTodo={this.delTodo} />
 
                             <h1> You are gold baby, GOLD!!</h1>
@@ -145,15 +151,12 @@ class App extends Component {
                       target="_blank"
                       rel="noopener noreferrer">
 
-                      Thank you for stopping by gorgeous!!!
         </a>  </em>
-
-                    <hr />
 
                     <br />
 
-                    <hr />          <img src={goldd} className="App-goldd" alt="goldd" />
-
+                         <img src={goldd} className="App-goldd" alt="goldd" />
+                         <hr />   
                     <div className="footer-copyright text-center py-3">© 2020
     <a href="https://userstory.html/"> gloryapp.butterfly</a>
                     </div>
@@ -204,7 +207,7 @@ const mapStateToProps = (state) => ({
   todos: state.todos
 });
 const mapDispatchToProps = {
-  reduxAddTodo, 
+  reduxAddTodo,
   reduxDeleteTodo, reduxUpdateTodo, reduxCompleteTodo
 }
 export default connect(mapStateToProps, mapDispatchToProps)(App);
